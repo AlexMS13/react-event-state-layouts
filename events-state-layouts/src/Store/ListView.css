@@ -1,0 +1,58 @@
+.store {
+    display: flex;
+    flex-direction: column;
+  
+    .list-view {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .shop-item {
+        width: 100%;
+        margin: 5px 0 0 0;
+        padding: 0 10px 0 10px;
+        display: flex;
+        flex-direction: row;
+        height: 70px;        
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shop-item img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .color {
+        font-size: 12px;
+    }
+
+
+    .price button {
+        color: red;
+        border: 1px solid red;
+        border-radius: 30px;
+        height: 30px;
+        line-height: 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .price button:hover {
+        color: white;
+        background-color: red;
+    }
+
+    .price {
+        color: red;
+        font-size: 14px;
+    }
+
+}

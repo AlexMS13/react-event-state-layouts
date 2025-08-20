@@ -1,4 +1,5 @@
 import React from 'react';
+import './CardsView.css'
 import ShopCard from './ShopCard';
 
 const CardsView = ({ cards }) => (
